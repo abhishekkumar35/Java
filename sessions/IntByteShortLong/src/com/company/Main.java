@@ -37,7 +37,14 @@ public class Main {
       short myLongNumber = (short)(myNumber/26); // casting to short
         System.out.println(myLongNumber);
 
-        // note :
+        // note : byte short int long datatypes can be used in an expression together until we store
+        // final result in long. but will throw error if we dont use type cast and store the result in byte shor or int.
+        byte $byte = 46;
+        short $short  = 4568;
+        int $int = 4758624;
+
+        long longNumber = 50000L + $byte + $short + $int;
+        System.out.println(longNumber);
 
     }
 }
