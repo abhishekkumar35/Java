@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        long myValue = 1000l;  // we can use L also
+        long myValue = 1000l;  // we can use L also // but we dont have to write l, L expicitely as java automatically convert int to long if variable datatype is long.
         long myMinValue = Long.MIN_VALUE; // same can be done for Integer as Integer.MIN.VALUE storing in int variable
         long myMaxValue = Long.MAX_VALUE; // same can be done for Integer as Integer.MAX.VALUE storing in int variable
         System.out.println(myMinValue);
@@ -36,6 +36,8 @@ public class Main {
 //        short myLongNumber = myNumber/26; // will throw error, conversion int to byte
       short myLongNumber = (short)(myNumber/26); // casting to short
         System.out.println(myLongNumber);
+
+        // note :
 
     }
 }
