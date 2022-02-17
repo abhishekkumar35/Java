@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        // write your code here
         // String is not primitive datatype in java it is a class.
         // String takes series of char.
         // max characters String can withhold is max value of int.
